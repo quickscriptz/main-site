@@ -164,18 +164,6 @@
 			</div>
 		</div>
 	</p></span></section>
-	<section id="photography" class="port"><span><p>
-		<a class="control_next" id="forward" rel="desktop">&raquo;</a>
-		<a class="control_prev" id="backward" rel="desktop">&laquo;</a>
-		<div id="slider">
-		<ul><li><img src="http://c4.staticflickr.com/8/7330/9763588283_c33a4caa6c_h.jpg" width="640" height="425"></li>
-		<li><img src="http://c1.staticflickr.com/5/4060/4298011290_8723a6b2d6_b.jpg" width="640" height="425"></li>
-		<li><img src="http://c2.staticflickr.com/8/7375/9086698431_ccbcd10d2b_h.jpg" width="640" height="425"></li>
-		<li><img src="http://c2.staticflickr.com/8/7368/10675278606_802e591553_h.jpg" width="640" height="425"></li>
-		<li><img src="http://c2.staticflickr.com/6/5288/5351452098_2d67ee7bbd_b.jpg" width="640" height="425"></li>
-		<li><img src="http://c2.staticflickr.com/6/5005/5224466331_3eef34bbfc_b.jpg" width="640" height="425"></li>
-		</ul></div>
-	</p></span></section>
 	<section id="powerpoint" class="port" style="display:none;"><span><p>
 		<i class="fa fa-folder-o" id="bigport"></i>
 		<h2>Coming Soon.</h2>

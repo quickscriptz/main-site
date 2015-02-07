@@ -254,8 +254,9 @@ h1, h2, h3, h4 {
 #portlinks {
 	position: absolute;
 	min-width: 40em;
-	width: 60%;
+	width: 50%;
 	margin: 0 auto;
+	text-align: center;
 }
 
 #portcats {
@@ -433,12 +434,6 @@ h1, h2, h3, h4 {
 	padding-top: 2em;
 	margin-bottom: 0.5em;
 	border-bottom: solid 2px #EEE;
-}
-
-#photography {
-	display: none;
-	width: 760px;
-	background: transparent;
 }
 
 #slider {
