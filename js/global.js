@@ -332,9 +332,9 @@ $(document).ready(function(){
    	
    	// vertically center the header
 	windowHeight = $(window).height();
-	headerHeight = $("#header").height();
+	headerHeight = $("header").height();
 	paddingHeight = (windowHeight - headerHeight) / 2 - 100;
-   	$("#header").css("margin-top", paddingHeight);   
+   	$("header").css("margin-top", paddingHeight);   
 	
 	// move the menu while scrolling
 	var origPos = $("#movingmenu").offset().top;

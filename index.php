@@ -22,23 +22,23 @@
 <body>
 
 
-<div id="header">
+<header>
 	<div id="logo"></div>
 	<h2>web development & creative services</h2>
-</div>
+</header>
 <div id="movingmenu">
-	<div class="pure-menu pure-menu-open pure-menu-horizontal" id="menu">
+	<nav class="pure-menu pure-menu-open pure-menu-horizontal" id="menu">
 	<ul>
 		<li><a class="company">company</a><b><i class="fa fa-building-o"></i></b></li>
 		<li><a class="services">services</a><b><i class="fa fa-lightbulb-o"></i></b></li>
 		<li><a class="portfolio">portfolio</a><b><i class="fa fa-folder-o"></i></b></li>
 		<li><a class="contact">contact</a><b><i class="fa fa-envelope-o"></i></b></li>
 	</ul>
-	</div>
+	</nav>
 </div>
 
 
-<div class="section" id="company" style="margin-top:30em">
+<section id="company" style="margin-top:30em">
 	<div class="pure-g">
 	<div class="pure-u-1-5"></div><div class="pure-u-1-5"></div>
 	<div class="pure-u-1-5"><i class="fa fa-building-o" id="div"></i></div>
@@ -51,7 +51,7 @@
 </div>
 
 
-<div class="section" id="services">
+<section id="services">
 	<div class="pure-g">
 	<div class="pure-u-1-5"></div><div class="pure-u-1-5"></div>
 	<div class="pure-u-1-5"><i class="fa fa-lightbulb-o" id="div"></i></div>
@@ -80,7 +80,7 @@
 </div>
 
 
-<div class="section" id="portfolio">
+<section id="portfolio">
 	<div class="pure-g">
 	<div class="pure-u-1-5"></div><div class="pure-u-1-5"></div>
 	<div class="pure-u-1-5"><i class="fa fa-folder-open-o" id="div"></i></div>
@@ -184,7 +184,7 @@
 </div>
 
 
-<div class="section" id="contact">
+<section id="contact">
 	<div class="pure-g">
 	<div class="pure-u-1-5"></div><div class="pure-u-1-5"></div>
 	<div class="pure-u-1-5"><i class="fa fa-envelope-o" id="div"></i></div>
