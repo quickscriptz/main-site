@@ -99,8 +99,6 @@ header h2 {
 }
 
 #menu li a, #menu li a:link, #menu li a:active, #menu li a:visited, #menu li a:hover {
-	/*color: #2A8195;*/
-	/*color: #4492DB;*/
 	color: #3A7EA0;
 }
 
@@ -153,7 +151,6 @@ h1, h2, h3, h4 {
 }
 
 .thinlink:hover {
-/* 	background: rgb(238, 238, 238); */
 	border: solid 1px #3A7EA0;
 	text-decoration: none;
 }
