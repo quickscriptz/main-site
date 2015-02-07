@@ -123,7 +123,7 @@
 	</p></span></section>
 	<section id="unfinished" class="labs" style="display:none;"><span><p>
 		<h2>Unfinished Stuff</h2>
-		<p>Here's are a few things that look cool but aren't fully function yet.</p>
+		<p>Here's are a few things that look cool but aren't fully functional yet.</p>
 		<a class="thinlinknb" target="_blank" href="http://rdjp4.quickscriptz.ca">Layout Mockup</a>
 		<a class="thinlinknb" target="_blank" href="http://dev.quickscriptz.ca/friends/">Interactive Storytelling</a>
 	</p></span></section>
