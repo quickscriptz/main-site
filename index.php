@@ -26,7 +26,7 @@
 	<div id="logo"></div>
 	<h2>web development & creative services</h2>
 </div>
-<div id="movingMenu">
+<div id="movingmenu">
 	<div class="pure-menu pure-menu-open pure-menu-horizontal" id="menu">
 	<ul>
 		<li><a class="company">company</a><b><i class="fa fa-building-o"></i></b></li>
