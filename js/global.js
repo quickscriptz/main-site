@@ -337,7 +337,7 @@ $(document).ready(function(){
    	$("#header").css("margin-top", paddingHeight);   
 	
 	// move the menu while scrolling
-	var origPos = $("#movingMenu").offset().top;
+	var origPos = $("#movingmenu").offset().top;
 	var posWas;
 	var scrollDir;
 	var origColour = "#FFF";
@@ -354,26 +354,26 @@ $(document).ready(function(){
 		posWas = pos; //new location value
 	
 		var distFromTop = $(document).scrollTop(); //current distance from the top
-		var menuPosType = $("#movingMenu").css("position"); //whether menu is fixed or absolute
-		var menuPostTop = $("#movingMenu").css("top"); //current menu distance from top
+		var menuPosType = $("#movingmenu").css("position"); //whether menu is fixed or absolute
+		var menuPostTop = $("#movingmenu").css("top"); //current menu distance from top
 		if (distFromTop < origPos){
 			if(menuPosType == "fixed" && menuPostTop == "0px"){ //if at top of page, ensure menu is below logo
-				$("#movingMenu").css("position", "absolute").css("top", origPos).css("background", origColour);
+				$("#movingmenu").css("position", "absolute").css("top", origPos).css("background", origColour);
 				$("#menu").css("background", origColour);
 			}else{
-				$("#movingMenu").css("position", "absolute").css("background", origColour);
+				$("#movingmenu").css("position", "absolute").css("background", origColour);
 				$("#menu").css("background", origColour);
 			}
 		} else if(distFromTop > origPos-5 && distFromTop < origPos+5) { //covers a range to account for fast scrolling
 			if(scrollDir == "down"){
-				$("#movingMenu").css("position", "fixed").css("top", "0").css("background", scrollColour); //fix to top when scrolling down
+				$("#movingmenu").css("position", "fixed").css("top", "0").css("background", scrollColour); //fix to top when scrolling down
 				$("#menu").css("background", scrollColour);
 			}else if (scrollDir == "up"){
-				$("#movingMenu").css("position", "absolute").css("top", origPos).css("background", scrollColour); //place below logo when scrolling up
+				$("#movingmenu").css("position", "absolute").css("top", origPos).css("background", scrollColour); //place below logo when scrolling up
 				$("#menu").css("background", scrollColour);
 			}
 		} else if (distFromTop > 95 && menuPostTop != "0px"){ //if scrolling, ensure menu is fixed at top
-			$("#movingMenu").css("position", "fixed").css("top", "0px").css("background", scrollColour);
+			$("#movingmenu").css("position", "fixed").css("top", "0px").css("background", scrollColour);
 			$("#menu").css("background", scrollColour);
 		}
 	});
