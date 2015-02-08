@@ -48,7 +48,7 @@
 	<h1>we are a creative services agency,</h1>
 	<h3>passionate about creating unique and compelling user experiences.</h3>
 	<p>We exist to transform the way people think about design and revolutionize how they interact with it. By using the latest and greatest in web, print, photography, and other creative mediums, we turn simple ideas into incredible finished products. We have the experience and expertise needed to make your next project a raging success.</p>
-</div>
+</section>
 
 
 <section id="services">
@@ -77,7 +77,7 @@
 	<p><i style="opacity: 0.3;display:none;" id="scrollforport">(click here to jump to portfolio)</i></p>
 	
 	<p style><a class="pure-button button-blue" id="servquote" style="display:none;">Request More Info</a></p>
-</div>
+</section>
 
 
 <section id="portfolio">
@@ -92,7 +92,7 @@
 	<p>With each client, our aim is to build a relationship that allows us to truly understand their specific needs and unique position. We don't just develop websites and generate designs, we create experiences - but don't take our word for it, have a look for yourself. Here's some work we've completed in past. We think you'll like it.</p>
 		<p>&nbsp;</p>
 		<p>
-		<div id="portcontainer">
+		<nav id="portcontainer">
 			<div id="portlinks">
 				<span><a class="thinlink" id="labs-open">&laquo; View Labs</a></span> 
 				<span><a class="thinlink" id="port-open">View Portfolio &raquo;</a></span>
@@ -109,10 +109,10 @@
 				<a class="thinlinknb" id="experiments-o" rel="labcats">Experiments</a>
 				<a class="thinlinknb" href="https://github.com/QuickScriptz" target="_blank">GitHub</a>
 			</div>
-		</div>
+		</nav>
 		</p>
 		
-	<section id="scripts" class="labs" style="display:none;"><span><p>
+	<article id="scripts" class="labs" style="display:none;"><span><p>
 		<h2>Free Scripts</h2>
 		<p>To view available downloads, select your script of interest:</p>
 		<div id="scripts-a">
@@ -121,23 +121,23 @@
 		<a class="thinlinknb" target="_blank" rel="A MySQL DB-driven login system/user portal." href="http://download.quickscriptz.ca/phpmyadminsql/">Php My-Admin SQL</a>
 		<a class="thinlinknb" target="_blank" rel="A turn-key web radio management solution." href="http://download.quickscriptz.ca/radiodjpanel/">Radio DJ Panel</a>
 		</div><br/><br/><p><i style="opacity:0.5;" id="scripts-d">&nbsp;</i></p>
-	</p></span></section>
-	<section id="unfinished" class="labs" style="display:none;"><span><p>
+	</p></span></article>
+	<article id="unfinished" class="labs" style="display:none;"><span><p>
 		<h2>Unfinished Stuff</h2>
 		<p>Here's are a few things that look cool but aren't fully functional yet.</p>
 		<a class="thinlinknb" target="_blank" href="http://rdjp4.quickscriptz.ca">Layout Mockup</a>
 		<a class="thinlinknb" target="_blank" href="http://dev.quickscriptz.ca/friends/">Interactive Storytelling</a>
-	</p></span></section>
-	<section id="experiments" class="labs" style="display:none;"><span><p>
+	</p></span></article>
+	<article id="experiments" class="labs" style="display:none;"><span><p>
 		<div id="bubbles">
 			<div class="bubble x1"></div><div class="bubble x2"></div><div class="bubble x3"></div><div class="bubble x4"></div><div class="bubble x5"></div>
 		</div>
 		<i class="fa fa-flask" id="biglab"></i>
 		<h2>Coming Soon.</h2>
-	</p></span></section>
+	</p></span></article>
 	
 
-	<section id="webdesign" class="port" style="display:none;"><span><p>
+	<article id="webdesign" class="port" style="display:none;"><span><p>
 		<div id="webdesign-c">
 			<div class="clear" style="padding-top:0;"></div>
 			<div class="left">
@@ -164,13 +164,13 @@
 				<a class="pure-button thinlinkbb" target="_blank" href="http://couturechan.com">View Site</a>
 			</div>
 		</div>
-	</p></span></section>
-	<section id="powerpoint" class="port" style="display:none;"><span><p>
+	</p></span></article>
+	<article id="powerpoint" class="port" style="display:none;"><span><p>
 		<i class="fa fa-folder-o" id="bigport"></i>
 		<h2>Coming Soon.</h2>
-	</p></span></section>
+	</p></span></article>
 	
-</div>
+</section>
 
 
 <section id="contact">
@@ -282,7 +282,7 @@
 	</p></span></div>
 	
 	</form>
-</div>
+</section>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

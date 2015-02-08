@@ -254,7 +254,7 @@ h1, h2, h3, h4 {
 #portlinks {
 	position: absolute;
 	min-width: 40em;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -262,7 +262,7 @@ h1, h2, h3, h4 {
 #portcats {
 	position: absolute;
 	min-width: 40em;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 	display: none;
 }
@@ -270,7 +270,7 @@ h1, h2, h3, h4 {
 #labcats {
 	position: absolute;
 	min-width: 40em;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
 	display: none;
 }
