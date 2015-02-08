@@ -1,0 +1,485 @@
+$primaryfont: "Alegreya Sans", sans-serif;
+$secondaryfont: "Alegreya Sans SC", sans-serif;
+
+$bgcolor: #FFF;
+$textcolor: #000;
+$headingcolor: #555;
+$linkcolor: #3A7EA0;
+
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400|Alegreya+Sans:400,700);
+
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-o-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+
+//***************************
+//* Document styles
+//***************************
+
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;	
+}
+
+body {
+	margin: 1em auto;
+	text-align: center;
+	background: $bgcolor;
+	color: $textcolor;
+	width: 100%;
+	height: 100%;
+}
+
+body, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"] {
+	font-family: $primaryfont;
+}
+
+a {
+	color: $linkcolor;
+	
+	&:link, &:active, &:visited {
+		text-decoration: none;
+	}
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+
+//***************************
+//* Header styles
+//***************************
+
+header {
+	margin: 0 auto;
+	min-width: 50em;
+	width: 65%;
+
+	#logo {
+		background: url('../img/logo.png');
+		background-image: url('../img/logo-opt.svg'), none;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 100% auto;
+		opacity: 0.7;
+		height: 88px;
+		width: 81px;
+		margin: 0 auto 1em auto;
+	}
+
+	h2 {
+		font-family: $secondaryfont;
+		text-align: center;
+		width: 100%;
+		letter-spacing: 0.2em;
+		font-weight: 300;
+		margin: 0.2em auto 0.2em auto;
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+		padding-top: 0.2em;
+		padding-bottom: 0.2em;
+		color: $textcolor;
+	}
+}
+
+
+//***************************
+//* Menu styles
+//***************************
+
+@mixin menutransition($duration) {
+	transition: background-color $duration ease-in-out;
+	-moz-transition: background-color $duration ease-in-out;
+	-webkit-transition: background-color $duration ease-in-out; 
+	-o-transition: background-color $duration ease-in-out; 
+}
+
+#movingmenu {
+	background: #FFF;
+	width: 100%;
+	min-width: 50em;
+	@include menutransition(0.3s);
+}
+
+#menu {
+	margin: 0 auto;
+	width: 30em;
+ 	font-family: $secondaryfont;
+	font-size: larger;
+	font-weight: 300;
+	@include menutransition(0.3s); 
+	
+	li {
+		a {
+			color: $linkcolor;
+			&:hover, &:link, &:active, &:visited {
+				color: $linkcolor;
+			}
+		}
+	}
+}
+
+
+//***************************
+//* Layout styles
+//***************************
+
+section {
+	margin: 55em auto;
+	min-width: 40em;
+	width: 60%;
+	padding: 2em;
+	padding-top: 4em;
+
+	#div {
+		color: #3A7EA0;
+		font-size: 2.5em;	
+		padding: 0 0 0.3em 0;
+	}
+
+	p {
+		letter-spacing: 0.05em;
+	}
+}
+
+
+//***************************
+//* Content styles
+//***************************
+
+h1, h2, h3, h4 {
+	font-family: $primaryfont;
+	font-weight: 700;
+	margin: 0;
+	color: $headingcolor;
+}
+
+@mixin thinlinkall {
+	font-family: $secondaryfont;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+.thinlink {
+	@include thinlinkall;
+	color: $linkcolor;
+	padding: 0.7em 1.2em;
+	border: solid 1px $bgcolor;
+	font-weight: 300;
+	border-radius: 0.3em;
+	cursor: pointer;
+
+	&:hover {
+		border: solid 1px $linkcolor;
+		text-decoration: none;
+	}
+}
+
+.thinlinknb {
+	@include thinlinkall;
+	color: $linkcolor;
+	padding: 0.5em 1em;
+
+	&:hover {
+		background: $linkcolor;
+		color: $bgcolor;
+		text-decoration: none;
+	}
+}
+
+.thinlinkbb {
+	@include thinlinkall;
+	color: $bgcolor;
+	background: $linkcolor;
+	border-radius: 0;
+	margin-top: -1em;
+
+	&:hover {
+		color: $bgcolor;
+		text-decoration: none;
+	}
+}
+
+.button-blue {
+	@include thinlinkall;
+	background: $linkcolor;
+	border-radius: 0.3em;
+	color: $bgcolor !important;
+	font-weight: 400;
+	
+	&:hover {
+		text-decoration: none;
+		color: $bgcolor;
+	}
+}
+
+#contact {
+	margin-bottom: 20em;
+	padding-bottom: 20em;
+}
+
+
+//***************************
+//* Services styles
+//***************************
+ 
+#servoffer2 {
+	margin-top: 10px;
+}
+
+.servcont {
+	background: #F6F6F6;
+	padding: 15px 0;
+	margin: 0 10px;
+	border: solid 1px $bgcolor;
+	@include border-radius(5px);
+
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+#servinfo {
+	margin: 1em 3em;
+
+	section {
+		background: #EEE;
+		padding: 10px;
+		@include border-radius(5px);
+	}
+}
+
+
+//***************************
+//* Port & Lab styles
+//***************************
+
+#portcontainer {
+	text-align: center;
+	min-width: 40em;
+	height: 3em;
+}
+
+@mixin portlinkcat {
+	position: absolute;
+	min-width: 40em;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#portlinks {
+	@include portlinkcat;
+	text-align: center;
+}
+
+#portcats {
+	@include portlinkcat;
+	display: none;
+}
+
+#labcats {
+	@include portlinkcat;
+	display: none;
+}
+
+
+//***************************
+//* Labs styles
+//***************************
+
+.labs {
+	background: url('../img/noisy_net_@2X.png') !important;
+	background-size: 200px 200px;
+	width: 90% !important;
+	height: 88% !important;
+	color: #FFF !important;
+}
+ 
+#biglab {
+	font-size: 18em;
+	opacity: 0.4;
+} 
+
+#bubbles { 
+	height: 100px;
+	width:60px; 
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: -1em;
+}
+
+.bubble {
+    width: 15px;
+    height: 15px;
+    background: #FFF;
+    @include border-radius(10px);
+    position: relative;
+}
+
+@mixin scale($amt) {
+	-webkit-transform: scale($amt);
+    -moz-transform: scale($amt);
+    transform: scale($amt);
+}
+
+@mixin move($dur1, $dur2) {
+	-webkit-animation: moveclouds $dur1 linear infinite, sideWays $dur2 ease-in-out infinite alternate;
+	-moz-animation: moveclouds $dur1 linear infinite, sideWays $dur2 ease-in-out infinite alternate;
+	-o-animation: moveclouds $dur1 linear infinite, sideWays $dur2 ease-in-out infinite alternate;
+}
+
+.x1 {
+    opacity: 0.2;
+    @include scale(0.9);
+    @include move(3s, 0.6s);
+}
+.x2 {
+    left: 40px;
+    opacity: 0.5;
+    @include scale(0.4);
+    @include move(4s, 1s);
+}
+.x3 {
+    left: 30px;
+    opacity: 0.3;
+    @include scale(0.7);
+    @include move(5s, 0.8s);
+}
+.x4 {
+    left: 20px;
+    opacity: 0.35;
+    @include scale(0.6);
+    @include move(2.5s, 2s);
+}
+.x5 {
+    left: 10px;
+    opacity: 0.3; 
+    @include scale(0.8);
+    @include move(2s, 3s);
+}
+@-webkit-keyframes moveclouds { 
+	0% {top: 50px;}
+	100% {top: -50px;opacity: 0;}
+}
+@-webkit-keyframes sideWays { 
+	0% {margin-left:0px;}
+	100% {margin-left:5px;}
+}
+@-moz-keyframes moveclouds {     
+	0% {top: 50px;}
+	100% {top: -50px;opacity: 0;}
+}
+@-moz-keyframes sideWays {
+	0% {margin-left:0px;}
+	100% {margin-left:5px;}
+}
+@-o-keyframes moveclouds {
+	0% {top: 50px;}
+	100% {top: -50px;opacity: 0;}
+}
+@-o-keyframes sideWays {
+	0% {margin-left:0px;}
+	100% {margin-left:5px;}
+}
+
+
+//***************************
+//* Portfolio styles
+//***************************
+
+.port {
+	background: url('../img/greyzz_@2X.png') !important;
+	background-size: 149px 139px;
+	background-repeat: repeat;
+	width: 90% !important;
+	height: 88% !important;
+}
+
+#bigport {
+	font-size: 18em;
+	opacity: 0.4;
+} 
+
+#webdesign-c {
+	margin: 0 auto;
+	min-width: 40em;
+	width: 60%;
+	text-align: left;
+	
+	.left {
+		float: left;
+		width: 75%;
+	}
+
+	.right {
+		float: right;
+		width: 22%;
+		text-align: right;
+		padding-top: 0.5em;
+		
+		a {
+			color: #FFF;
+		}
+	}
+	
+	.clear {
+		clear: both;
+		padding-top: 2em;
+		margin-bottom: 0.5em;
+		border-bottom: solid 2px #EEE;
+	}
+}
+
+
+
+//***************************
+//* Modal styles
+//***************************
+ 
+.modal {
+	display: table;
+	width: 400px;
+	background: $bgcolor;
+	min-width: 40em;
+	min-height: 25em;
+
+	span {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	
+	a.close-modal {
+		position: absolute;
+		top: -12.5px;
+		right: -12.5px;
+		display: block;
+		width: 30px;
+		height: 30px;
+		text-indent: -9999px;
+		background: url('../img/close.png') no-repeat 0 0;
+	}
+}
+
+.modal-spinner {
+	display: none;
+	width: 64px;
+	height: 64px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-right: -32px;
+	margin-top: -32px;
+	background: url('../img/spinner.gif') #111 no-repeat center center;
+	@include border-radius(8px);
+}
