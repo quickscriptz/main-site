@@ -107,6 +107,7 @@
 				<a class="thinlinknb" id="scripts-o" rel="labcats">Free Scripts</a>
 				<a class="thinlinknb" id="unfinished-o" rel="labcats">Unfinished Stuff</a>
 				<a class="thinlinknb" id="experiments-o" rel="labcats">Experiments</a>
+				<a class="thinlinknb" href="https://github.com/QuickScriptz" target="_blank">GitHub</a>
 			</div>
 		</div>
 		</p>
