@@ -143,7 +143,7 @@
 			<div class="left">
 				<b>Yu&Lu Wedding.</b><br/>An international wedding with a simplistic feel and hipster flair.
 			</div><div class="right">
-				<a class="pure-button thinlinkbb" target="_blank" href="http://yuandlu.com">View Site</a>
+				<a class="pure-button thinlinkbb" target="_blank" href="http://yuandlu.quickscriptz.ca">View Site</a>
 			</div>
 			<div class="clear"></div>
 			<div class="left">
