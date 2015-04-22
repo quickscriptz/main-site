@@ -96,7 +96,19 @@ $(document).ready(function(){
 	});
 	
 	// portfolio sub-sections
-	$("#webdesign-o").click(function(){$("#webdesign").modal();});
+	$("#webdesign-o").click(function(){
+		$("#webdesign").modal();
+		// portfolio 6-square layout
+		totalHeight = $("#webdesign").height();
+		$("#webdesign > .pure-g > div").height(totalHeight/2);
+		// resize logo images
+		$("#be").backstretch("../img/be.png");
+		$("#ptlaw").backstretch("../img/ptlaw.png");
+		$("#yuandlu").backstretch("../img/yuandlu.png");
+		$("#koi").backstretch("../img/koi.png");
+		$("#leftq").backstretch("../img/leftq.png");
+		$("#rightq").backstretch("../img/rightq.png");
+	});
 	$("#powerpoint-o").click(function(){$("#powerpoint").modal();});
 	
 	// labs sub-sections
@@ -111,37 +123,6 @@ $(document).ready(function(){
 	}, function(){
 		$("#scripts-d").html("&nbsp;");
 	});
-	
-	// photography slider
-	var slideCount = $("#slider ul li").length;
-	var slideWidth = $("#slider ul li").width();
-	var slideHeight = $("#slider ul li").height();
-	var sliderUlWidth = slideCount * slideWidth;
-	$("#slider").css({ width: slideWidth, height: slideHeight });
-	$("#slider ul").css({ width: sliderUlWidth, marginLeft: - slideWidth });
-    $("#slider ul li:last-child").prependTo("#slider ul");
-    if(jQuery.browser.mobile || isiPad){
-	    // mobile no-hover
-	    $("a.control_prev, a.control_next, a.close-modaltr").fadeTo("fast", 0.6);
-	}else{
-		// desktop hover behaviour
-		$("#photography").hover(function(){ // fade in next/previous buttons on hover
-	    $("a.control_prev, a.control_next, a.close-modal").fadeTo("fast", 0.6);
-    }, function(){$("a.control_prev, a.control_next, a.close-modal").fadeOut("fast");});
-
-	}
-    function moveLeft() { // previous slide
-        $("#slider ul").animate({left: + slideWidth}, 800, function () {
-            $("#slider ul li:last-child").prependTo("#slider ul");
-            $("#slider ul").css("left", "");
-        });};
-    function moveRight() { // next slide
-        $("#slider ul").animate({left: - slideWidth}, 800, function () {
-            $("#slider ul li:first-child").appendTo("#slider ul");
-            $("#slider ul").css("left", "");
-        });};
-    $("#backward").click(function(){moveLeft();});
-    $("#forward").click(function(){moveRight();}); 
 	 
 
 	/***************************

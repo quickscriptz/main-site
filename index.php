@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" />
 <link rel="stylesheet" href="css/style.css" type="text/css" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script async src="js/jquery.backstretch.min.js"></script>
 <script async src="js/jquery.modal.min.js"></script>
 <script async src="js/jquery.ui.custom.min.js"></script>
 <script async src="js/global.js"></script>
@@ -133,38 +134,42 @@
 			<div class="bubble x1"></div><div class="bubble x2"></div><div class="bubble x3"></div><div class="bubble x4"></div><div class="bubble x5"></div>
 		</div>
 		<i class="fa fa-flask" id="biglab"></i>
-		<h2>Coming Soon.</h2>
+		<h2>Does this bubbling beaker count?</h2>
 	</p></span></article>
 	
 
-	<article id="webdesign" class="port" style="display:none;"><span><p>
-		<div id="webdesign-c">
-			<div class="clear" style="padding-top:0;"></div>
-			<div class="left">
-				<b>Yu&Lu Wedding.</b><br/>An international wedding with a simplistic feel and hipster flair.
-			</div><div class="right">
-				<a class="pure-button thinlinkbb" target="_blank" href="http://yuandlu.quickscriptz.ca">View Site</a>
-			</div>
-			<div class="clear"></div>
-			<div class="left">
-				<b>Ken's Ornamental Ironworks.</b><br/>Custom hand-made gates, railings, fences, and artistic iron pieces. 
-			</div><div class="right">
-				<a class="pure-button thinlinkbb" target="_blank" href="http://kensornamentalironworks.ca">View Site</a>
-			</div>
-			<div class="clear"></div>
-			<div class="left">
-				<b>Pelham Community Church.</b><br/>A United church looking for a big presence on the web.
-			</div><div class="right">
-				<a class="pure-button thinlinkbb" target="_blank" href="http://pelham.cc">View Site</a>
-			</div>
-			<div class="clear"></div>
-			<div class="left">
-				<b>Couture Chan.</b><br/>Quality, hand-made baby couture for stylish moms and tots.
-			</div><div class="right">
-				<a class="pure-button thinlinkbb" target="_blank" href="http://couturechan.com">View Site</a>
-			</div>
+	<article id="webdesign" class="port" style="display:none;">
+		<div class="pure-g">
+			<div class="pure-u-1-3"><div class="portboxcontent">
+				<div class="portlogo" id="be"></div>
+				<h2 class="soon">Launching Soon</h2>
+				A complete website overhaul, focused on being mobile-friendly and easy to maintain.
+			</div></div>
+    		<div class="pure-u-1-3"><div class="portboxcontent">
+	    		<div class="portlogo" id="ptlaw"></div>
+	    		<h2 class="soon">Launching Soon</h2>
+	    		A brand new website for a Niagara-based law freelancer who started her own business.
+    		</div></div>
+    		<div class="pure-u-1-3"><div class="portboxcontent">
+	    		<a href="http://yuandlu.quickscriptz.ca" target="_blank"><div class="portlogo" id="yuandlu"></div></a>
+	    		<a href="http://yuandlu.quickscriptz.ca" target="_blank"><h2 class="view">View Site</h2></a>
+	    		A hand-crafted wedding microsite to keep guests in the loop as the big day approaches.
+    		</div></div>
 		</div>
-	</p></span></article>
+		<div class="pure-g">
+			<div class="pure-u-1-3" id="leftq"><div class="portboxcontent faded">
+				<h4>"Working with QuickScriptz Design was a pleasure from beginning to end. Five star service!"</h4>
+    		</div></div>
+			<div class="pure-u-1-3"><div class="portboxcontent">
+				<a href="http://kensornamentalironworks.ca" target="_blank"><div class="portlogo" id="koi"></div></a>
+				<a href="http://kensornamentalironworks.ca" target="_blank"><h2 class="view">View Site</h2></a>
+				A small town artisan ironworker wanted to expand his reach and customer base.
+			</div></div>
+    		<div class="pure-u-1-3" id="rightq"><div class="portboxcontent faded">
+				<h4>"I would recommend them to anyone looking for an attractive and professional website!"</h4>
+    		</div></div>
+		</div>
+	</article>
 	<article id="powerpoint" class="port" style="display:none;"><span><p>
 		<i class="fa fa-folder-o" id="bigport"></i>
 		<h2>Coming Soon.</h2>
