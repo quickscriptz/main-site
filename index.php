@@ -141,8 +141,8 @@
 	<article id="webdesign" class="port" style="display:none;">
 		<div class="pure-g">
 			<div class="pure-u-1-3"><div class="portboxcontent">
-				<div class="portlogo" id="be"></div>
-				<h2 class="soon">Launching Soon</h2>
+				<a href="http://balletetc.ca" target="_blank"><div class="portlogo" id="be"></div></a>
+				<a href="http://balletetc.ca" target="_blank"><h2 class="view">View Site</h2></a>
 				A complete website overhaul, focused on being mobile-friendly and easy to maintain.
 			</div></div>
     		<div class="pure-u-1-3"><div class="portboxcontent">
